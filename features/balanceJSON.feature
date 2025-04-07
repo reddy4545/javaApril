@@ -2,7 +2,7 @@ Feature:Receiving Balance entities from API
 Scenario:Succesufully receiving balance entities from get request
 Given I am using url http://localhost:9095/api/balances 
 And I enter the valid API-KEY ,signature
-when I use GET request with /api/balances
+When I use GET request with /api/balances
 Then I received success response with balnce_data
 And the response body should contain balance data for data-provider-1
 """
