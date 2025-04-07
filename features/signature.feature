@@ -2,7 +2,7 @@ Feature: Genarating Signature for API request
 Scenario: succesufully genarated signature 
 Given  I have generated  secret-key using passPhrase
 And I enter a valid timestamp
-When I genarate the signature for request body "entity:SFH"
+When I genarate the signature for request body "entity:STS"
 Then succesfully get the signature 
 
 
